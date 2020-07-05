@@ -19,10 +19,6 @@ var start = 0;
 var speed = 15;
 var gravity = 2.5;
 var jumpforce = 35;
-var tx = 306.25;
-var ty = 522.45;
-var tcheck = 0;
-var tmove = 0;
 var countdown = 3;
 var point = 0;
 var point2 = 0;
@@ -55,13 +51,6 @@ function draw() {
 
       rect(width/4 - 175, 525, 350, 20);
       rect(width/4*3 - 175, 525, 350, 20);
-
-      push();
-      fill(255);
-      stroke(0);
-      triangle(tx, ty, tx + 50, ty, tx + 25, ty - 50*sqrt(3)/2);
-      triangle(tx + 960, ty, tx + 1010, ty, tx + 985, ty - 50*sqrt(3)/2);
-      pop();
 
       //TAGS
 
@@ -125,13 +114,6 @@ function draw() {
 
       rect(width/4 - 175, 525, 350, 20);
       rect(width/4*3 - 175, 525, 350, 20);
-
-      push();
-      fill(255);
-      stroke(0);
-      triangle(tx, ty, tx + 50, ty, tx + 25, ty - 50*sqrt(3)/2);
-      triangle(tx + 960, ty, tx + 1010, ty, tx + 985, ty - 50*sqrt(3)/2);
-      pop();
 
       //TAGS
 
